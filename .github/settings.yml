@@ -1,10 +1,10 @@
 ---
 repository:
-  name: terraform-child-module
-  description: Terraform module to manage the Terraform Cloud/Enterprise resource (tfe_FIXME)
-  homepage: https://registry.terraform.io/modules/dhoppeIT/FIXME/tfe/latest
-  topics: terraform, tfe_FIXME
-  private: true
+  name: terraform-aws-iam_account
+  description: Terraform module to manage the Amazon Web Services resources (aws_iam_account_alias, aws_iam_account_password_policy)
+  homepage: https://registry.terraform.io/modules/dhoppeIT/iam_account/aws/latest
+  topics: terraform, aws, iam, account-alias, account-password-policy
+  private: false
   has_issues: true
   has_projects: false
   has_wiki: false
