@@ -1,7 +1,19 @@
+variable "create_account_alias" {
+  type        = bool
+  default     = false
+  description = "Whether to create IAM account alias"
+}
+
 variable "account_alias" {
   type        = string
   default     = null
   description = "The account alias"
+}
+
+variable "create_account_password_policy" {
+  type        = bool
+  default     = false
+  description = "Whether to create IAM account password policy"
 }
 
 variable "allow_users_to_change_password" {
