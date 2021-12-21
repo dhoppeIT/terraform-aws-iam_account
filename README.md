@@ -57,7 +57,7 @@ No modules.
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
-| <a name="input_account_alias"></a> [account\_alias](#input\_account\_alias) | The account alias | `string` | `null` | no |
+| <a name="input_account_alias"></a> [account\_alias](#input\_account\_alias) | The account alias | `string` | n/a | yes |
 | <a name="input_allow_users_to_change_password"></a> [allow\_users\_to\_change\_password](#input\_allow\_users\_to\_change\_password) | Whether to allow users to change their own password | `bool` | `true` | no |
 | <a name="input_create_account_alias"></a> [create\_account\_alias](#input\_create\_account\_alias) | Whether to create IAM account alias | `bool` | `false` | no |
 | <a name="input_create_account_password_policy"></a> [create\_account\_password\_policy](#input\_create\_account\_password\_policy) | Whether to create IAM account password policy | `bool` | `false` | no |
