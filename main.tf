@@ -1,8 +1,12 @@
 resource "aws_iam_account_alias" "default" {
+  count = var.create_account_alias ? 1 : 0
+
   account_alias = var.account_alias
 }
 
 resource "aws_iam_account_password_policy" "default" {
+  count = var.create_account_password_policy ? 1 : 0
+
   allow_users_to_change_password = var.allow_users_to_change_password
   hard_expiry                    = var.hard_expiry
   max_password_age               = var.max_password_age

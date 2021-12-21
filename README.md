@@ -14,15 +14,17 @@ Copy and paste into your Terraform configuration, insert the variables and run `
 module "aws-iam_account" {
   source = "dhoppeIT/iam_account/aws"
 
-  account_alias = "dhoppeIT"
+  create_account_alias = true
+  account_alias        = "dhoppeit"
 
-  max_password_age             = 90
-  minimum_password_length      = 32
-  password_reuse_prevention    = 3
-  require_lowercase_characters = true
-  require_numbers              = true
-  require_symbols              = true
-  require_uppercase_characters = true
+  create_account_password_policy = true
+  max_password_age               = 90
+  minimum_password_length        = 32
+  password_reuse_prevention      = 3
+  require_lowercase_characters   = true
+  require_numbers                = true
+  require_symbols                = true
+  require_uppercase_characters   = true
 }
 ```
 
