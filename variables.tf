@@ -6,7 +6,6 @@ variable "create_account_alias" {
 
 variable "account_alias" {
   type        = string
-  default     = null
   description = "The account alias"
 }
 
