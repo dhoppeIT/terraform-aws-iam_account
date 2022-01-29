@@ -1,10 +1,11 @@
 # terraform-aws-iam_account
 
-Terraform module to manage the Amazon Web Services resources (aws_iam_account_alias, aws_iam_account_password_policy).
+Terraform module to manage the Amazon Web Services resources
+(aws_iam_account_alias, aws_iam_account_password_policy).
 
 ## Graph
 
-![Graph](https://github.com/dhoppeIT/terraform-aws-iam_account/blob/main/rover.png)
+<img alt="Graph" src="https://github.com/dhoppeIT/terraform-aws-iam_account/blob/main/rover.svg?raw=true" width="100%" height="100%">
 
 ## Usage
 
