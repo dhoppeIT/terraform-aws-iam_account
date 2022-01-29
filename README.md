@@ -12,7 +12,7 @@ Terraform module to manage the Amazon Web Services resources
 Copy and paste into your Terraform configuration, insert the variables and run ```terraform init```:
 
 ```hcl
-module "aws-iam_account" {
+module "aws_iam_account" {
   source = "dhoppeIT/iam_account/aws"
 
   create_account_alias = true
