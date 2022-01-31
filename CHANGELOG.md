@@ -1,5 +1,12 @@
 # Changelog
 
+### [0.2.1](https://github.com/dhoppeIT/terraform-aws-iam_account/compare/v0.2.0...v0.2.1) (2022-01-31)
+
+
+### Bug Fixes
+
+* Allow new minor releases ([#18](https://github.com/dhoppeIT/terraform-aws-iam_account/issues/18)) ([9de6433](https://github.com/dhoppeIT/terraform-aws-iam_account/commit/9de6433059f18ac1a4e00156abbbc0397b3690a5))
+
 ## [0.2.0](https://www.github.com/dhoppeIT/terraform-aws-iam_account/compare/v0.1.0...v0.2.0) (2021-12-21)
 
 
