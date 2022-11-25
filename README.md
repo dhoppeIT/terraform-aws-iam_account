@@ -41,7 +41,7 @@ module "aws_iam_account" {
 
 | Name | Version |
 |------|---------|
-| <a name="provider_aws"></a> [aws](#provider\_aws) | 4.40.0 |
+| <a name="provider_aws"></a> [aws](#provider\_aws) | 4.41.0 |
 
 ## Modules
 
